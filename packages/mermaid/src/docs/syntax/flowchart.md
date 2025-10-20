@@ -1,3 +1,24 @@
+graph TD
+    subgraph Input
+        A[Profile of Participants:<br>- Inclusive Education Teachers (Panabo City)<br>- Years of Experience, SPED Training] --> B
+        B[Contextual Factors:<br>- K-12 Curriculum<br>- DepEd Inclusive Education Policy<br>- Classroom Environment (Resources, Class Size)]
+    end
+
+    subgraph Process
+        C[Qualitative Case Study Methodology] --> D
+        D{Data Gathering:<br>- Semi-structured Interviews<br>- Non-participant Classroom Observations<br>- Document Analysis (Lesson Plans, IMs, Outputs)} --> E
+        E[Data Analysis:<br>- Thematic Analysis<br>- Cross-Case Analysis]
+    end
+
+    subgraph Output
+        F[A Practical Guide/Compendium:<br>- Documented Effective Pedagogical Strategies for Curriculum Adaptation] --> G
+        G[Proposed "Panabo Model for Inclusive Curriculum Adaptation":<br>- Framework Grounded in UDL Principles for Professional Development]
+    end
+
+    A -- "Informs" --> C
+    B -- "Shapes" --> C
+    C -- "Generates" --> F
+    E -- "Leads to" --> G
 ---
 title: Flowcharts Syntax
 ---
